@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "85096881454",
+    "firebase_url": "https://mensajes-9cb44.firebaseio.com",
+    "project_id": "mensajes-9cb44",
+    "storage_bucket": "mensajes-9cb44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85096881454:android:d3380c8c18fcc40a872ebf",
+        "android_client_info": {
+          "package_name": "com.mensajes.luis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85096881454-e7i9n8fvjrnlllf9rc8vso4sg28175b7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABRNx36vGO1ZMAj6fHOo9b37UxGeOv19A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85096881454-e7i9n8fvjrnlllf9rc8vso4sg28175b7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
