@@ -37,6 +37,34 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
+        var push = PushNotification.init({
+            android:{
+
+            },ios:{
+                alert:"true",
+                badge:true,
+                sound:'false'
+            }
+      });
+
+      push.on('registration',function(data){
+            alert(data.registrationId);
+            console.log(data.registrationId);
+          console.log(data.registrationType);
+      })
+    
+      push.on('notification', function (data) {
+
+        console.log(data.message);
+        console.log(data.title);
+        console.log(data.count);
+        console.log(data.sound);
+        console.log(data.image);
+        console.log(data.additionalData);
+
+    });
+
+
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
